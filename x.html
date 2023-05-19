@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doctor Schedule</title>
+
+  </head>
+  <body>
+    <h1>Doctor Schedule</h1>
+    <form action="x.php" method="post">
+      <label for="doc_id">Select a doctor:</label>
+      <select name="doc_id" id="doc_id">
+        <option value="5">Dr. Smith</option>
+        <option value="6">Dr. Johnson</option>
+        <option value="12">Dr. Lee</option>
+        <!-- Add more options as needed for your specific database -->
+      </select>
+      <button type="submit">View Schedule</button>
+    </form>
+<script>
+    // Get the popup window
+var popup = document.getElementById("popup");
+
+// Get the button that opens the popup
+var btn = document.getElementById("schedule-button");
+
+// Get the <span> element that closes the popup
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the popup
+btn.onclick = function() {
+  popup.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the popup
+span.onclick = function() {
+  popup.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the popup, close it
+window.onclick = function(event) {
+  if (event.target == popup) {
+    popup.style.display = "none";
+  }
+}
+
+// Function to display the doctor's schedule in the popup
+function showSchedule(doctorId, day, timeFrom, timeTo) {
+  var scheduleText = "Doctor " + doctorId + " is available on " + day + " from " + timeFrom + " to " + timeTo;
+  var schedule = document.getElementById("schedule");
+  schedule.innerHTML = scheduleText;
+}
+
+</script>
+  </body>
+</html>
