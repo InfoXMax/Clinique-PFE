@@ -1,6 +1,12 @@
 
 ![Project Logo](./backend/admin/assets/images/logo-light.png)
 
+## Authors
+
+- [@Oussamaajb](https://www.github.com/Oussamaajb)
+- [@InfoXMax](https://www.github.com/InfoXMax)
+
+
 ## Technologies Used
 
 - HTML & CSS
