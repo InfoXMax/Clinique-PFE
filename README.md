@@ -6,7 +6,7 @@
 - [@Oussamaajb](https://www.github.com/Oussamaajb)
 - [@InfoXMax](https://www.github.com/InfoXMax)
 - [@achrafalfitouri](https://www.github.com/achrafalfitouri)
-- - [@MahaAdoul](https://www.github.com/MahaAdoul)
+- [@MahaAdoul](https://www.github.com/MahaAdoul)
 
 
 
